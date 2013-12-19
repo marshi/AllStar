@@ -1,0 +1,174 @@
+@charset "UTF-8"
+@import compass
+@include global-reset
+
+
+@-webkit-keyframes bound
+	0%, 20%, 50%, 80%, 100%
+		-webkit-transform: translateY(0px)
+	0%
+		opacity: 0
+		-webkit-transform: translateY(-200px)
+	40%
+		-webkit-transform: translateY(-30px)
+	60%
+		-webkit-transform: translateY(-15px)
+
+
+@-webkit-keyframes fadein
+	0%, 20%, 50%, 80%, 100%
+		opacity: 1.0
+	0%
+		opacity: 0
+	100%
+		opacity: 1.0
+
+
+html,body
+	width: 100%
+	height: 100%
+	margin: 0px
+	line-height: 1.7
+
+#wrapper
+	background: image-url('background.jpg') repeat-y left top
+	background-size: cover
+	height: 100%
+	width: 100%
+	min-height: 420px
+	overflow: hidden
+	padding-top: 10px
+	#logo
+		background: image-url('logo3.png') no-repeat left top
+		width: image-width('logo2.png')/2
+		height: image-height('logo2.png')/2
+		background-size: 100% 100%
+		margin: 10px auto
+		opacity: 1.0
+		position: relative
+		top: 80px
+
+		-webkit-animation-name: bound
+		-webkit-animation-duration: 1000ms
+		-webkit-animation-iteration-count: 1
+		-webkit-animation-direction: alternate
+		-webkit-animation-play-state: running
+		-webkit-animation-delay: 0s
+
+	#message
+		background: rgba(0,0,0,.3)
+		box-sizing: border-box
+		width: 80%
+		border-radius: 4px
+		margin: 10% 10%
+		color: #FFF
+		text-align: center
+
+		//border: solid 5px rgb(30,43,111)
+
+		-webkit-animation-name: bound
+		-webkit-animation-duration: 1000ms
+		-webkit-animation-iteration-count: 1
+		-webkit-animation-direction: alternate
+		-webkit-animation-play-state: running
+		-webkit-animation-delay: 0s
+
+		box-shadow: 0 0 10px 0px rgba(0,0,0,.3)
+		//border: solid 4px
+
+		border: solid 2px #FFF
+		text-shadow: -1px -1px 0px rgba(0, 0, 0, .5)
+		background: -webkit-gradient(linear, left top, left bottom,from(rgba(0,71,153,.5)), to(rgba(0,61,143,.5)))
+		.in
+			box-sizing: border-box
+			box-shadow: 0 0 1px 1px rgba(0,0,0,.2) inset
+			padding: 10px
+			height: 100%
+
+	#box
+		background: rgba(255,255,255,.6)
+		border: solid 3px #FFF
+		box-sizing: border-box
+		width: 280px
+		padding: 10px
+		margin: 10px auto
+		border-radius: 4px
+		position: relative
+		top: 90px
+		opacity: 0
+		-webkit-transition: all 500ms linear
+
+		&.show
+			opacity: 1.0
+		&.hide
+			opacity: 0
+		#entry-name
+			width: 100%
+			border-radius: 2px
+			border: solid 1px #FFF
+			height: 20px
+			line-height: 20px
+		button
+			width: 100%
+	.quiz
+		width: 90%
+		height: 40px
+		line-height: 40px
+		margin: auto
+		text-align: center
+		color: #FFF
+		border-radius: 4px
+		border: solid 1px #FFF
+		text-shadow: -1px -1px 0px rgba(0, 0, 0, .5)
+		background: -webkit-gradient(linear, left top, left bottom,from(rgba(0,71,153,.5)), to(rgba(0,61,143,.5)))
+	#btns
+		padding: 10px 0
+		#btn-top
+			@media only screen and (orientation: portrait)
+				display: block
+			@media only screen and (orientation: landscape)
+				display: -webkit-box
+		#btn-bottom
+			@media only screen and (orientation: portrait)
+				display: block
+			@media only screen and (orientation: landscape)
+				display: -webkit-box
+		.btn
+			-webkit-box-flex: 1.0
+			box-sizing: border-box
+			width: 90%
+			@media only screen and (orientation: landscape)
+				width: 96%
+			margin: 0 auto 10px auto
+			color: #333
+			background: -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(240,240,240)))
+			text-align: center
+			border-radius: 4px
+			font-size: 2.8em
+			text-shadow: -1px -1px 0px #FFF
+			border: solid 1px #FFF
+			border-bottom: solid 12px rgb(220,220,240)
+			&.selected
+				background: rgba(0,0,0,.1)
+				color: rgba(255,255,255,.5)
+				text-shadow: none
+				border-bottom: none
+				box-shadow: none
+				border: none
+	#btn-fb
+		text-align: center
+		border-color: #29447e
+		border-bottom-color: #1a356e
+		color: #fff
+		background-color: #5872a7
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7))
+		background-image: -webkit-linear-gradient(#637bad, #5872a7)
+		background-image: linear-gradient(#637bad, #5872a7)
+			-webkit-box-shadow: inset 0 1px 0 #879ac0
+		box-shadow: inset 0 1px 0 #879ac0
+		width: 100%
+		height: 36px
+		line-height: 36px
+		padding: 0 0 0 10px
+		box-sizing: border-box
+		margin: 10px auto

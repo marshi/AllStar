@@ -1,0 +1,436 @@
+@charset "UTF-8";
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@-webkit-keyframes turn {
+  /* line 7, ../sass/main.sass */
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  }
+
+  /* line 9, ../sass/main.sass */
+  100% {
+    background: rgba(0, 50, 120, 0.5);
+  }
+}
+
+@-webkit-keyframes turn2 {
+  /* line 13, ../sass/main.sass */
+  0% {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  }
+
+  /* line 15, ../sass/main.sass */
+  100% {
+    background: white;
+  }
+}
+
+@-webkit-keyframes scale-small {
+  /* line 19, ../sass/main.sass */
+  0% {
+    -webkit-transform: scale(3);
+  }
+
+  /* line 21, ../sass/main.sass */
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes scale-bounce {
+  /* line 25, ../sass/main.sass */
+  0% {
+    -webkit-transform: scale(1);
+  }
+
+  /* line 27, ../sass/main.sass */
+  70% {
+    -webkit-transform: scale(1.2);
+  }
+
+  /* line 29, ../sass/main.sass */
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+/* line 32, ../sass/main.sass */
+html, body, #wrapper {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* line 40, ../sass/main.sass */
+#wrapper {
+  background: url('/img/background.jpg?1371735582') repeat left top;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+/* line 46, ../sass/main.sass */
+#container {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+/* line 52, ../sass/main.sass */
+#header {
+  border: solid 2px white;
+  box-sizing: border-box;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  position: relative;
+  min-height: 60px;
+  line-height: 60px;
+  width: 100%;
+  -webkit-border-radius: 4px;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 10px;
+}
+/* line 65, ../sass/main.sass */
+#header .title {
+  height: 60px;
+  line-height: 60px;
+}
+
+/* line 69, ../sass/main.sass */
+#main {
+  width: 100%;
+  min-height: 70%;
+}
+/* line 72, ../sass/main.sass */
+#main #quiz {
+  position: relative;
+  height: 80%;
+}
+/* line 75, ../sass/main.sass */
+#main .answer-list {
+  width: 100%;
+  height: 80%;
+}
+/* line 78, ../sass/main.sass */
+#main .box {
+  width: 100%;
+}
+/* line 81, ../sass/main.sass */
+#main .top-container {
+  display: -webkit-box;
+}
+/* line 84, ../sass/main.sass */
+#main .bottom-container {
+  display: -webkit-box;
+}
+/* line 87, ../sass/main.sass */
+#main .answer-box {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  border: solid 1px white;
+  -webkit-box-flex: 1;
+  width: 1000px;
+  box-sizing: border-box;
+  width: 45%;
+  height: 320px;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 10px;
+}
+/* line 99, ../sass/main.sass */
+#main .answer-box .answer-count {
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  line-height: 60px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 4px 0 0 0;
+  background: rgba(0, 123, 139, 0.7);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  color: white;
+  text-align: center;
+}
+/* line 113, ../sass/main.sass */
+#main .answer-box.answer {
+  background: #be8127;
+  color: white;
+}
+/* line 116, ../sass/main.sass */
+#main .answer-box .number {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  text-align: center;
+  z-index: 10;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  border: solid 1px white;
+}
+/* line 130, ../sass/main.sass */
+#main .answer-box .in {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 134, ../sass/main.sass */
+#main .answer-box .in img {
+  width: 300px;
+  display: block;
+  margin: auto;
+  -webkit-animation-name: scale-small;
+  -webkit-animation-duration: 15000ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  -webkit-animation-delay: 0s;
+}
+/* line 148, ../sass/main.sass */
+#main .answer-line {
+  -webkit-box-sizing: border-box;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 0 0 10px;
+  background: rgba(255, 255, 255, 0.3);
+  border: solid 1px white;
+  border-radius: 4px;
+  font-size: 2em;
+  position: relative;
+}
+/* line 160, ../sass/main.sass */
+#main .answer-line.answer {
+  background: #be7827;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  color: white;
+}
+/* line 164, ../sass/main.sass */
+#main .answer-line .answer-count {
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  line-height: 92px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  border-radius: 4px;
+  background: rgba(0, 123, 139, 0.7);
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  color: white;
+  text-align: center;
+}
+
+/* line 178, ../sass/main.sass */
+#a1 {
+  background: transparent;
+}
+
+/* line 180, ../sass/main.sass */
+#a2 {
+  background: transparent;
+}
+
+/* line 182, ../sass/main.sass */
+#a3 {
+  background: transparent;
+}
+
+/* line 184, ../sass/main.sass */
+#a4 {
+  background: transparent;
+}
+
+/* line 187, ../sass/main.sass */
+#modal {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1%;
+}
+/* line 193, ../sass/main.sass */
+#modal #ranking .ranking-box {
+  box-sizing: border-box;
+  display: -webkit-box;
+  height: 64px;
+  line-height: 64px;
+  width: 100%;
+  border-radius: 4px;
+  border: solid 1px white;
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 2em;
+  margin: 0 0 10px 0;
+  font-size: white;
+}
+/* line 205, ../sass/main.sass */
+#modal #ranking .ranking-box.large {
+  height: 90px;
+  line-height: 90px;
+}
+/* line 208, ../sass/main.sass */
+#modal #ranking .ranking-box.large .ranking-user {
+  font-size: 1.2em;
+}
+/* line 210, ../sass/main.sass */
+#modal #ranking .ranking-box.large .ranking-rank {
+  font-size: 60px;
+  width: 86px;
+  height: 86px;
+  line-height: 86px;
+  -webkit-animation-name: turn;
+  -webkit-animation-duration: 200ms;
+  -webkit-animation-iteration-count: 10;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  -webkit-animation-delay: 0s;
+}
+/* line 222, ../sass/main.sass */
+#modal #ranking .ranking-box .ranking-user {
+  -webkit-box-flex: 1;
+  width: 1000px;
+}
+/* line 225, ../sass/main.sass */
+#modal #ranking .ranking-box .ranking-rank {
+  font-size: 48px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 4px;
+  min-width: 60px;
+  height: 60px;
+  border: solid 1px white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  margin: 0 10px 10px 0;
+  color: white;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+}
+/* line 237, ../sass/main.sass */
+#modal #ranking .ranking-box .ranking-time {
+  padding-right: 10px;
+}
+/* line 239, ../sass/main.sass */
+#modal h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+/* line 242, ../sass/main.sass */
+#modal h3 {
+  font-size: 3em;
+}
+
+/* line 246, ../sass/main.sass */
+#timer {
+  position: absolute;
+  display: -webkit-box;
+  font-size: 40px;
+  right: 10px;
+  top: 10px;
+  min-height: 60px;
+  min-width: 60px;
+  border-radius: 50%;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  background: rgba(255, 255, 255, 0.2);
+}
+/* line 258, ../sass/main.sass */
+#timer.timeup {
+  -webkit-animation-name: turn2;
+  -webkit-animation-duration: 100ms;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  -webkit-animation-delay: 0s;
+  background: rgba(0, 0, 0, 0.4);
+  color: #cccccc;
+}
+
+/* line 268, ../sass/main.sass */
+.box {
+  width: 100%;
+  border: solid 2px white;
+  box-sizing: border-box;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 71, 153, 0.5)), to(rgba(0, 61, 143, 0.5)));
+  -webkit-animation-name: scale-bounce;
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-timing-function: ease-out;
+}
