@@ -2,7 +2,7 @@ define(['chikuwa', 'lodash', 'master/base'], function ($, _, base) {
 
 
 	var container = base.container,
-		modal = base.modal,
+		modal = base.modal;
 
 	/**
 	 * show ranking
@@ -11,6 +11,7 @@ define(['chikuwa', 'lodash', 'master/base'], function ($, _, base) {
 
 		var content = $.tag('#ranking'),
 			offset, limit;
+
 		data = data || {};
 
 		var ranking = data.ranking || [];
