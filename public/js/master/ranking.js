@@ -3,7 +3,6 @@ define(['chikuwa', 'lodash', 'master/base'], function ($, _, base) {
 
 	var container = base.container,
 		modal = base.modal,
-		reset = false;
 
 	/**
 	 * show ranking
@@ -43,10 +42,6 @@ define(['chikuwa', 'lodash', 'master/base'], function ($, _, base) {
 		} else if (state === 'all') {
 
 			var border = data.border;
-			if (resetFlg) {
-				base.reset();
-				reset = true;
-			}
 
 			switch (border) {
 			case '50':
