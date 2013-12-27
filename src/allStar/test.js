@@ -60,6 +60,18 @@ exports.data = [
 		answer: 3
 	},
 	{
+		id: 4,
+		type: 'image',
+		question: '水沼さんが描いた古川さんはどれ？',
+		answerList: [
+			{id: 1, content: 'http://133.242.202.150/year/2/mukai.JPG'},
+			{id: 2, content: 'http://133.242.202.150/year/2/ito.jpg'},
+			{id: 3, content: 'http://133.242.202.150/year/2/hattori.jpg'},
+			{id: 4, content: 'http://133.242.202.150/year/2/mizunuma.JPG'},
+		],
+		answer: 4
+	},
+	{
 		id: 7,
 		type: 'text',
 		question: '渋谷発祥のチェーン店は？',
