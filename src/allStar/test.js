@@ -2,7 +2,7 @@ exports.data = [
 	{
 		id: 0,
 		type: 'text',
-		question: 'aはどれ？',
+		question: '問題修正テスト？',
 		answerList: [
 			{id: 1, content: 'd'},
 			{id: 2, content: 'a'},
