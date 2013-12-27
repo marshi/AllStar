@@ -19,7 +19,7 @@ exports.data = [
 			{id: 1, content: 'http://133.242.202.150/year/1/ameba.jpg'},
 			{id: 2, content: 'http://133.242.202.150/year/1/line-icon.png'},
 			{id: 3, content: 'http://133.242.202.150/year/1/sony20ericsson.jpg'},
-			{id: 4, content: 'http://133.242.202.150/year/1/starbucks.jpg'},
+			{id: 4, content: 'http://133.242.202.150/year/1/starbucks.jpeg'},
 		],
 		answer: 1
 	},
