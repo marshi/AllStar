@@ -86,18 +86,6 @@ exports.data = [
 	{
 		id: 7,
 		type: 'text',
-		question: '今何問目？',
-		answerList: [
-			{id: 1, content: '6問目'},
-			{id: 2, content: '7問目'},
-			{id: 3, content: '8問目'},
-			{id: 4, content: '9問目'},
-		],
-		answer: 2
-	},
-	{
-		id: 8,
-		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
 			{id: 1, content: 'クンクン'},
@@ -108,7 +96,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 9,
+		id: 8,
 		type: 'image',
 		question: '水沼さんは？',
 		answerList: [
