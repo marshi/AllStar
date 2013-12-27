@@ -107,5 +107,16 @@ exports.data = [
 		],
 		answer: 3
 	},
-
+	{
+		id: 9,
+		type: 'image',
+		question: '寺本さんの右肩はどれ？',
+		answerList: [
+			{id: 1, content: 'http://133.242.202.150/year/sholder/hikichi.png'},
+			{id: 2, content: 'http://133.242.202.150/year/sholder/teramoto.png'},
+			{id: 3, content: 'http://133.242.202.150/year/sholder/furukawa.png'},
+			{id: 4, content: 'http://133.242.202.150/year/sholder/uchida.png'},
+		],
+		answer: 2
+	},
 ];
