@@ -60,19 +60,7 @@ exports.data = [
 		answer: 3
 	},
 	{
-		id: 5,
-		type: 'image',
-		question: '"すんも"はどれ？',
-		answerList: [
-			{id: 1, content: 'http://133.242.202.150/year/4/kokomin.png'},
-			{id: 2, content: 'http://133.242.202.150/year/4/pigg.gif'},
-			{id: 3, content: 'http://133.242.202.150/year/4/sunmo.gif'},
-			{id: 4, content: 'http://133.242.202.150/year/4/suumo.jpg'},
-		],
-		answer: 3
-	},
-	{
-		id: 6,
+		id: 7,
 		type: 'text',
 		question: '渋谷発祥のチェーン店は？',
 		answerList: [
@@ -84,7 +72,7 @@ exports.data = [
 		answer: 2
 	},
 	{
-		id: 7,
+		id: 8,
 		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
@@ -96,7 +84,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 8,
+		id: 9,
 		type: 'image',
 		question: '水沼さんは？',
 		answerList: [
