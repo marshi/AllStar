@@ -16,7 +16,7 @@ exports.data = [
 		type: 'image',
 		question: 'アメーバのアイコンはどれ？',
 		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
+			{id: 1, content: 'http://133.242.202.150/year/1/ameba.jpg'},
 			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
 			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
 			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
