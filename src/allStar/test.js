@@ -60,7 +60,7 @@ exports.data = [
 		answer: 3
 	},
 	{
-		id: 4,
+		id: 5,
 		type: 'image',
 		question: '水沼さんが描いた古川さんはどれ？',
 		answerList: [
@@ -72,7 +72,7 @@ exports.data = [
 		answer: 4
 	},
 	{
-		id: 7,
+		id: 6,
 		type: 'text',
 		question: '渋谷発祥のチェーン店は？',
 		answerList: [
@@ -84,7 +84,7 @@ exports.data = [
 		answer: 2
 	},
 	{
-		id: 8,
+		id: 7,
 		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
@@ -96,7 +96,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 9,
+		id: 8,
 		type: 'image',
 		question: '水沼さんは？',
 		answerList: [
