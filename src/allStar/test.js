@@ -65,7 +65,7 @@ exports.data = [
 		question: '水沼さんが描いた古川さんはどれ？',
 		answerList: [
 			{id: 1, content: 'http://133.242.202.150/year/furukawa/mukai.JPG'},
-			{id: 2, content: 'http://133.242.202.150/year/furukawa/ito.jpg'},
+			{id: 2, content: 'http://133.242.202.150/year/furukawa/ito.JPG'},
 			{id: 3, content: 'http://133.242.202.150/year/furukawa/hattori.jpg'},
 			{id: 4, content: 'http://133.242.202.150/year/furukawa/mizunuma.JPG'},
 		],
