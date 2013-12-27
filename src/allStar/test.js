@@ -9,7 +9,7 @@ exports.data = [
 			{id: 3, content: 'd'},
 			{id: 4, content: 'c'},
 		],
-		answer: 1
+		answer: 4
 	},
     {
 		id: 1,
@@ -17,9 +17,9 @@ exports.data = [
 		question: 'アメーバのアイコンはどれ？',
 		answerList: [
 			{id: 1, content: 'http://133.242.202.150/year/1/ameba.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
+			{id: 2, content: 'http://133.242.202.150/year/1/line-icon.png'},
+			{id: 3, content: 'http://133.242.202.150/year/1/sony20ericsson.jpg'},
+			{id: 4, content: 'http://133.242.202.150/year/1/starbucks.jpg'},
 		],
 		answer: 1
 	},
@@ -40,12 +40,12 @@ exports.data = [
 		type: 'image',
 		question: '引地さんは？',
 		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
+			{id: 1, content: 'http://133.242.202.150/year/2/A12265.jpg'},
+			{id: 2, content: 'http://133.242.202.150/year/2/hikichi.jpg'},
+			{id: 3, content: 'http://133.242.202.150/year/2/A12382.jpg'},
+			{id: 4, content: 'http://133.242.202.150/year/2/A12723.jpg'},
 		],
-		answer: 1
+		answer: 2
 	},
 	{
 		id: 4,
@@ -64,12 +64,12 @@ exports.data = [
 		type: 'image',
 		question: '"すんも"はどれ？',
 		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
+			{id: 1, content: 'http://133.242.202.150/year/4/kokomin.png'},
+			{id: 2, content: 'http://133.242.202.150/year/4/pigg.gif'},
+			{id: 3, content: 'http://133.242.202.150/year/4/sunmo.gif'},
+			{id: 4, content: 'http://133.242.202.150/year/4/suumo.jpg'},
 		],
-		answer: 1
+		answer: 3
 	},
 	{
 		id: 6,
@@ -85,18 +85,6 @@ exports.data = [
 	},
 	{
 		id: 7,
-		type: 'image',
-		question: 'iPhone5Sは？',
-		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
-		],
-		answer: 1
-	},
-	{
-		id: 8,
 		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
@@ -108,39 +96,16 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 9,
+		id: 8,
 		type: 'image',
-		question: '水沼は？',
+		question: '水沼さんは？',
 		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
+			{id: 1, content: 'http://133.242.202.150/year/8/mizunuma.JPG'},
+			{id: 2, content: 'http://133.242.202.150/year/8/soku_1.jpg'},
+			{id: 3, content: 'http://133.242.202.150/year/8/soku_2.jpg'},
+			{id: 4, content: 'http://133.242.202.150/year/8/soku_3.jpg'},
 		],
 		answer: 1
 	},
-	{
-		id: 10,
-		type: 'image',
-		question: '水沼の描いた古川さんはどれ？',
-		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
-		],
-		answer: 1
-	},
-	{
-		id: 11,
-		type: 'image',
-		question: '寺本さんの右肩はどれ？',
-		answerList: [
-			{id: 1, content: 'http://www.magicalmaker.com/u418/2093648/mmimg/1260493544.jpg'},
-			{id: 2, content: 'http://img01.ti-da.net/usr/daikiti/%E3%81%AF%E3%81%92%E3%81%B6.jpg'},
-			{id: 3, content: 'http://www.townnews.co.jp/0202/images/20110413050715_84325.jpg'},
-			{id: 4, content: 'http://livedoor.blogimg.jp/aokichanyon444/imgs/9/b/9bbbb6a2.jpg'},
-		],
-		answer: 1
-	},
+
 ];
