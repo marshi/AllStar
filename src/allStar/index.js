@@ -266,8 +266,8 @@ exports.state = {
 		});
 
 		self.stateList.push('all:end');
-		self.stateList.push('all:ranking:50');
-		self.stateList.push('all:ranking:20');
+/*		self.stateList.push('all:ranking:50');
+		self.stateList.push('all:ranking:20');*/
 		self.stateList.push('all:ranking:5');
 		self.stateList.push('all:ranking:4');
 		self.stateList.push('all:ranking:3');
