@@ -1,6 +1,18 @@
 exports.data = [
     {
 		id: 0,
+		type: 'text',
+		question: 'cはどれ？',
+		answerList: [
+			{id: 1, content: 'b'},
+			{id: 2, content: 'a'},
+			{id: 3, content: 'd'},
+			{id: 4, content: 'c'},
+		],
+		answer: 1
+	},
+    {
+		id: 1,
 		type: 'image',
 		question: 'アメーバのアイコンはどれ？',
 		answerList: [
@@ -12,7 +24,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 1,
+		id: 2,
 		type: 'text',
 		question: '今季の目標は？',
 		answerList: [
@@ -24,7 +36,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 2,
+		id: 3,
 		type: 'image',
 		question: '引地さんは？',
 		answerList: [
@@ -36,7 +48,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 3,
+		id: 4,
 		type: 'text',
 		question: '渋谷に乗り入れていない路線はどれ？',
 		answerList: [
@@ -48,7 +60,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 4,
+		id: 5,
 		type: 'image',
 		question: '"すんも"はどれ？',
 		answerList: [
@@ -60,7 +72,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 5,
+		id: 6,
 		type: 'text',
 		question: '渋谷発祥のチェーン店は？',
 		answerList: [
@@ -72,7 +84,7 @@ exports.data = [
 		answer: 2
 	},
 	{
-		id: 6,
+		id: 7,
 		type: 'image',
 		question: 'iPhone5Sは？',
 		answerList: [
@@ -84,7 +96,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 7,
+		id: 8,
 		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
@@ -96,7 +108,7 @@ exports.data = [
 		answer: 3
 	},
 	{
-		id: 8,
+		id: 9,
 		type: 'image',
 		question: '水沼は？',
 		answerList: [
@@ -108,7 +120,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 9,
+		id: 10,
 		type: 'image',
 		question: '水沼の描いた古川さんはどれ？',
 		answerList: [
@@ -120,7 +132,7 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 10,
+		id: 11,
 		type: 'image',
 		question: '寺本さんの右肩はどれ？',
 		answerList: [
