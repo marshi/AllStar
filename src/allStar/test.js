@@ -86,6 +86,18 @@ exports.data = [
 	{
 		id: 7,
 		type: 'text',
+		question: '今何問目？',
+		answerList: [
+			{id: 1, content: '6問目'},
+			{id: 2, content: '7問目'},
+			{id: 3, content: '8問目'},
+			{id: 4, content: '9問目'},
+		],
+		answer: 2
+	},
+	{
+		id: 8,
+		type: 'text',
 		question: '古川さんの飼っている犬の名前は？',
 		answerList: [
 			{id: 1, content: 'クンクン'},
@@ -96,13 +108,13 @@ exports.data = [
 		answer: 1
 	},
 	{
-		id: 8,
+		id: 9,
 		type: 'image',
 		question: '水沼さんは？',
 		answerList: [
 			{id: 1, content: 'http://133.242.202.150/year/8/mizunuma.JPG'},
 			{id: 2, content: 'http://133.242.202.150/year/8/soku_1.jpg'},
-			{id: 3, content: 'http://133.242.202.150/year/8/soku_2.jpg'},
+			{id: 3, content: 'http://133.242.202.150/year/8/soku_2.png'},
 			{id: 4, content: 'http://133.242.202.150/year/8/soku_3.jpg'},
 		],
 		answer: 1
