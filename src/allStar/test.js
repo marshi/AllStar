@@ -28,12 +28,12 @@ exports.data = [
 		type: 'text',
 		question: '今季の目標は？',
 		answerList: [
-			{id: 1, content: '右肩85'},
-			{id: 2, content: '右肩80'},
-			{id: 3, content: '左肩85'},
-			{id: 4, content: '左肩80'},
+			{id: 1, content: '右肩80'},
+			{id: 2, content: '左肩85'},
+			{id: 3, content: '左肩80'},
+			{id: 4, content: '右肩85'},
 		],
-		answer: 1
+		answer: 4
 	},
 	{
 		id: 3,
@@ -52,12 +52,12 @@ exports.data = [
 		type: 'text',
 		question: '渋谷に乗り入れていない路線はどれ？',
 		answerList: [
-			{id: 1, content: '小田急線'},
-			{id: 2, content: '山手線'},
-			{id: 3, content: '井の頭線'},
+			{id: 1, content: '山手線'},
+			{id: 2, content: '井の頭線'},
+			{id: 3, content: '小田急線'},
 			{id: 4, content: '半蔵門線'},
 		],
-		answer: 1
+		answer: 3
 	},
 	{
 		id: 5,
@@ -76,8 +76,8 @@ exports.data = [
 		type: 'text',
 		question: '渋谷発祥のチェーン店は？',
 		answerList: [
-			{id: 1, content: '全部'},
-			{id: 2, content: '富士そば'},
+			{id: 1, content: '富士そば'},
+			{id: 2, content: '全部'},
 			{id: 3, content: 'フレッシュネスバーガー'},
 			{id: 4, content: '五右衛門'},
 		],
@@ -105,7 +105,7 @@ exports.data = [
 			{id: 3, content: 'ルンルン'},
 			{id: 4, content: 'カンカン'},
 		],
-		answer: 3
+		answer: 1
 	},
 	{
 		id: 9,
