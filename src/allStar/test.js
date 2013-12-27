@@ -88,12 +88,12 @@ exports.data = [
 		type: 'image',
 		question: '水沼さんは？',
 		answerList: [
-			{id: 1, content: 'http://133.242.202.150/year/8/mizunuma.JPG'},
-			{id: 2, content: 'http://133.242.202.150/year/8/soku_1.jpg'},
-			{id: 3, content: 'http://133.242.202.150/year/8/soku_2.png'},
+			{id: 1, content: 'http://133.242.202.150/year/8/soku_1.jpg'},
+			{id: 2, content: 'http://133.242.202.150/year/8/soku_2.png'},
+			{id: 3, content: 'http://133.242.202.150/year/8/mizunuma.JPG'},
 			{id: 4, content: 'http://133.242.202.150/year/8/soku_3.jpg'},
 		],
-		answer: 1
+		answer: 3
 	},
 
 ];
